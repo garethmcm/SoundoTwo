@@ -1,0 +1,52 @@
+.audioComponentDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+.paramDials {
+  display: flex;
+  flex-direction: column;
+}
+
+.sampleTitle {
+  min-width: 90px;
+} 
+
+.playerButtonBox {
+    display: flex;
+    margin-right: 10px;
+    
+  }
+
+input {
+  height: 30px;
+}
+
+.blurb {
+  font-weight: thin;
+}  
+  
+.buttons {
+  background-color: #669BBC;
+  color: #FDF0D5;
+    margin: 3px;
+    min-width: 70px;
+  }
+
+.buttonSection {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.buttonSection .explainer {
+  visibility: hidden;
+}
+
+.buttonSection:hover .explainer {
+  visibility: visible;
+}
+
+.explainer {
+  margin-left: 15px;
+}

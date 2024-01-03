@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Black.ttf') format('truetype');
+
+  font-weight: black;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+
+  font-weight: black;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Light.ttf') format('truetype');
+
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+
+  font-weight: light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+
+  font-weight: medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+
+  font-weight: thin;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/Fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+
+  font-weight: thin;
+  font-style: italic;
+}
+
+body {
+  background-color: #669BBC;
+  color: #FDF0D5;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans serif;
+}
+
+.headerComponent {
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  width: 100%
+}
+
+header {
+
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+}
+
+.login {
+  font-size: small;
+}
+
+.loginSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 150px;
+}
+
+nav {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  background-color: #FDF0D5;
+  color: #003049;
+}
+
+.sectionBody {
+  height: 100%;
+  overflow: auto;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: right;
+  font-size: small;
+  padding: 10px;
+  color: black;
+}
+
+.audioBasics {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.techniquesNav {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:space-evenly;
+  background-color: #FDF0D5;
+  color: #003049;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 165px;
+}
+
+.techniquesBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section {
+  width: 1160px;
+}
+
+.oscars {
+  display: flex;
+}
